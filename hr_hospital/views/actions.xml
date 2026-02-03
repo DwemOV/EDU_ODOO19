@@ -1,0 +1,27 @@
+<odoo>
+
+    <record id="action_hospital_doctor" model="ir.actions.act_window">
+        <field name="name">Лікарі</field>
+        <field name="res_model">hospital.doctor</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="action_hospital_disease" model="ir.actions.act_window">
+        <field name="name">Види захворювань</field>
+        <field name="res_model">hospital.disease</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="action_hospital_patient" model="ir.actions.act_window">
+        <field name="name">Пацієнти</field>
+        <field name="res_model">hospital.patient</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="action_hospital_visit" model="ir.actions.act_window">
+        <field name="name">Візити</field>
+        <field name="res_model">hospital.visit</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

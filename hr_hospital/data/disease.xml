@@ -1,0 +1,17 @@
+<odoo>
+
+    <record id="disease_flu" model="hospital.disease">
+        <field name="name">Грип</field>
+        <field name="description">Сезонне вірусне захворювання з лихоманкою та кашлем.</field>
+    </record>
+
+    <record id="disease_diabetes" model="hospital.disease">
+        <field name="name">Цукровий діабет</field>
+        <field name="description">Хронічне захворювання, пов'язане з підвищеним рівнем цукру в крові.</field>
+    </record>
+
+    <record id="disease_hypertension" model="hospital.disease">
+        <field name="name">Гіпертонія</field>
+        <field name="description">Підвищений артеріальний тиск, що може призводити до серцево-судинних проблем.</field>
+    </record>
+</odoo>
