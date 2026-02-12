@@ -1,4 +1,4 @@
-from . import hr_hospital_doctor
-from . import hr_hospital_visit
-from . import hr_hospital_disease
-from . import hr_hospital_patient
+from . import hr_hospital_doctor # noqa
+from . import hr_hospital_visit # noqa
+from . import hr_hospital_disease # noqa
+from . import hr_hospital_patient # noqa

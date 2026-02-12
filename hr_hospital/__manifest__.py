@@ -15,19 +15,21 @@
 
     'data': [
         'security/ir.model.access.csv',
-        'views/actions.xml',
-        'views/patient.xml',
-        'views/visit.xml',
-        'views/doctor.xml',
-        'views/disease.xml',
-        'data/disease.xml',
-        'views/menu.xml',
+        'views/actions_views.xml',
+        'views/patient_views.xml',
+        'views/visit_views.xml',
+        'views/doctor_views.xml',
+        'views/disease_views.xml',
+        'data/disease_data.xml',
+        'data/doctor_data.xml',
+        'data/patient_data.xml',
+        'views/menu_views.xml',
     ],
 
-    'demo': [
-        'demo/doctor_demo.xml',
-        'demo/patient_demo.xml',
-    ],
+    # 'demo': [
+    #     'demo/doctor_demo.xml',
+    #     'demo/patient_demo.xml',
+    # ],
     'application': True,
     'auto_install': False,
     'installable': True,

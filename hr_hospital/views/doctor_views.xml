@@ -6,6 +6,7 @@
             <list>
                 <field name="name"/>
                 <field name="specialty"/>
+                <field name="mentor_id"/>
                 <field name="phone"/>
                 <field name="email"/>
             </list>
@@ -21,9 +22,22 @@
                     <group>
                         <field name="name"/>
                         <field name="specialty"/>
+                        <field name="mentor_id"/>
                         <field name="phone"/>
                         <field name="email"/>
                     </group>
+
+                    <notebook>
+                        <page string="Mentees">
+                            <field name="mentee_ids">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="specialty"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+
                 </sheet>
             </form>
         </field>
